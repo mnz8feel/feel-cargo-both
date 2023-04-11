@@ -1,0 +1,16 @@
+[package]
+name = "feel-cargo-both"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# library target names cannot contain hyphens: lib-name
+name = "lib_name"
+
+[[example]]
+name = "a"
+path = "examples/a.rs"
+
+[[example]]
+name = "y"
+path = "examples/y.rs"
