@@ -1,4 +1,4 @@
-use lib_name::aandb::abab;
+use lib_name::abab;
 
 fn main() {
     let result = abab("aaa", "bbb");
